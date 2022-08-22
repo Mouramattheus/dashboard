@@ -18,8 +18,9 @@
             <img src="./assets/logo.png" alt="logo"/>
             <h2>Dash<span class="danger">board</span></h2>
           </div>
-          <div class="close" id="close-btn"></div>
-          <span class="material-symbols-sharp">close</span>
+          <div class="close" id="close-btn">
+            <span class="material-symbols-sharp">close</span>
+          </div>
         </div>
         <div class="sidebar">
           <a href="#">
@@ -29,7 +30,7 @@
             <h3>Dashboard</h3>
           </a>
         <div class="sidebar">
-          <a href="#">
+          <a href="#" class="active">
             <span class="material-symbols-sharp">
               person
               </span>
@@ -93,6 +94,74 @@
           </a>
         </div>
       </aside>
+                <!-- Final do Aside -->
+                <main>
+                  <h1>DashBoard</h1>
+                  <div class="date">
+                    <input type="date">
+                  </div>
+                  <div class="insights">
+                    <div class="sales">
+                      <span class="material-symbols-sharp">analytics</span>
+                      <div class="middle">
+                        <div class="left">
+                          <h3>Total Sales</h3>
+                          <h1>$23,012</h1>
+                        </div>
+                        <div class="progress">
+                          <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                          </svg>
+                          <div class="number">
+                            <p>69%</p>
+                          </div>
+                        </div>
+                      </div>
+                      <small class="text-muted">Last 24hours</small>
+                    </div>
+                    <!-- Final do Sales -->
+                    <div class="expenses">
+                      <span class="material-symbols-sharp">bar_chart</span>
+                      <div class="middle">
+                        <div class="left">
+                          <h3>Total Expenses</h3>
+                          <h1>$12,320</h1>
+                        </div>
+                        <div class="progress">
+                          <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                          </svg>
+                          <div class="number">
+                            <p>58%</p>
+                          </div>
+                        </div>
+                      </div>
+                      <small class="text-muted">Last 24hours</small>
+                      <!-- Final das Despesas -->
+
+                    </div>
+                    <div class="income">
+                      <span class="material-symbols-sharp">stacked_line_chart</span>
+                      <div class="middle">
+                        <div class="left">
+                          <h3>Total Income</h3>
+                          <h1>$10,867</h1>
+                        </div>
+                        <div class="progress">
+                          <svg>
+                            <circle cx="38" cy="38" r="36"></circle>
+                          </svg>
+                          <div class="number">
+                            <p>44%%</p>
+                          </div>
+                        </div>
+                      </div>
+                      <small class="text-muted">Last 24hours</small>
+                      <!-- Final do dia -->
+
+                    </div>
+                  </div>
+                </main>
     </div>
   </body>
 </html>
