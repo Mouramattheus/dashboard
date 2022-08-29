@@ -22,3 +22,8 @@ Formato Celular
 
 Animações da sidebar feitas em JS
 
+## 💻 Principais tecnologias/ferramentas utilizadas
+
+HTML
+CSS
+Javascript
