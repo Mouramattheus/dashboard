@@ -24,6 +24,9 @@ Animações da sidebar feitas em JS
 
 ## 💻 Principais tecnologias/ferramentas utilizadas
 
-HTML
-CSS
-Javascript
+1. HTML
+2. CSS
+3. Javascript
+
+
+<br>
